@@ -16,6 +16,7 @@ element(by.repeater("result in memory")).element(by.css("td:nth-child(3)")).getT
      //Here we use pareant and child concept for finding the element
      //by.repeater will capture all the html document as a parent 
      //And by.css will find the perticular element from that html document
+     
 console.log(text);
 
 })
