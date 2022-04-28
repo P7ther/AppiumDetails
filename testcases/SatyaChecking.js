@@ -2,7 +2,6 @@ describe('Protractor Testing',function() {
  // First parameter -Test Suit Name
  //Second Parameter -Function(Function will have all (it blocks ) )
 
- 
  it('SatyaJit Testing protractor',function() {
    //Here we write our own code
   //Browser.get() will hit the url on the browser

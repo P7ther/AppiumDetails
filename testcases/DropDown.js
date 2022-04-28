@@ -1,5 +1,6 @@
 
-describe('Chain locators Demo',function() {
+describe('Chain locators Demo',function() 
+{
 
     function Calc(a,b,c)
     {
@@ -9,20 +10,14 @@ describe('Chain locators Demo',function() {
 
        element.all(by.tagName("option")).each(function(item)
        {
-   
-        item.getAttribute("value").then(function(values)
-        {
-        
-            if(values==c)
-            {
-                item.click();
-            }
-       
-        })  
-
+           item.getAttribute("value").then(function(values)
+           {
+               if(values==c)
+               {
+                 item.click();
+               }
+            })  
        })
-
-
 
     }
    
@@ -54,4 +49,5 @@ describe('Chain locators Demo',function() {
        
        })
        
-       })
+      
+})
